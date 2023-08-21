@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    
+    font-family: 'Cormorant Infant', serif; 
+    font-size: 2rem;   
+    background-color: #D3DEDC;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    margin-top: 0;
+   
+   
+}
+
+.btn{
+ font-family: 'Times New Roman', Times, serif;
+ text-transform: uppercase;
+}
+
+/* Живая кнопка  */
+.textbt{
+    -webkit-box-shadow:0px 5px 1px rgba(0   0   0   0.5) ;
+    box-shadow: 0px 5px 1px rgba(0   0   0   0.5);
+
+}
+
+.textbt:active{
+    position: relative;
+    top: 3px;
+    -webkit-box-shadow:0px 2px 1px rgba(0 0 0 0.5) ;
+    box-shadow: 0px 2px 1px rgba(0 0 0 0.5);
+}
+
+
+
+
+/* Имя автора */
+.top{
+    font-size: 2.3rem;
+    
+}
+/* Услуги */
+.serv{
+    font-size: 3rem;
+    color:#525E75;
+}
+
+/* Послание */
+.word{
+    font-size: 1.6rem;
+    color: white;
+}
+.word2{
+    font-size: 1.9rem;
+    color: white;
+}
+.colortext{
+    color: red;
+}
+ .fon{
+    height: 52vh;
+    background-image: url(https://images.unsplash.com/photo-1541753236788-b0ac1fc5009d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mzd8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60 );
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+  
+} 
+body{
+    background-color: #FFEFEF ;
+}
+
+/* заголовки */
+h2,h1{
+    color:#525E75;
+}
+/* текст */
+p,ul{
+    color: #7882A4;
+}
+
+.member{
+    display: flex;
+    justify-content: center;
+    background-color: #EEEEEE;
+    padding: 50px;
+    border-top: 1px solid #7882A4  ;
+    border-bottom: 1px solid #7882A4  ;
+}
+
+ .btn_text{
+    color: #7882A4;
+} 
+.accordion-button{
+    color: #7882A4 !important;
+}
+.feature-icon{
+    color:#22577E;
+}
+a{
+    color:#525E75;
+}
