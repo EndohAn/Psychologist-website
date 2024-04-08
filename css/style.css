@@ -1,6 +1,15 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: #FFEFEF ;
+}
+/* заголовки */
+h2,h1{
+    color:#525E75;
+}
+/* текст */
+p,ul{
+    color: #7882A4;
 }
 .navbar{
     
@@ -70,19 +79,6 @@ body{
 
   
 } 
-body{
-    background-color: #FFEFEF ;
-}
-
-/* заголовки */
-h2,h1{
-    color:#525E75;
-}
-/* текст */
-p,ul{
-    color: #7882A4;
-}
-
 .member{
     display: flex;
     justify-content: center;
@@ -92,7 +88,7 @@ p,ul{
     border-bottom: 1px solid #7882A4  ;
 }
 
- .btn_text{
+.btn_text{
     color: #7882A4;
 } 
 .accordion-button{
